@@ -1,7 +1,7 @@
 <h1> All Our Tasks</h1>
 
-<%= @tasks.each do |task| %>
+<% @tasks.each do |task| %>
 <h2><%= task.name %></h2>
-<p><%= tast.description %></p>
-<%= end %>
+<p><%= task.description %></p>
+<% end %>
 
